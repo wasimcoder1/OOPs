@@ -1,0 +1,25 @@
+package OOPS;
+
+class Students {
+	int id;
+	int age;
+
+	Students(int id, int age) {
+		this.id = id;
+		this.age = age;
+		System.out.println("Parametrize Constructor");
+	}
+	
+	Students(){
+		System.out.println("Default Constructor");
+	}
+}
+
+public class OOPs3 {
+
+	public static void main(String[] args) {
+		Students obj = new Students(4, 19);
+
+	}
+
+}
