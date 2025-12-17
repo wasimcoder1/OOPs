@@ -1,0 +1,25 @@
+package OOPS;
+
+class parentClass {
+	void display() {
+		System.out.println("Parent Class Method");
+	}
+}
+
+class childClass extends parentClass {
+	void show() {
+		System.out.println("Child class method");
+	}
+}
+
+public class OOPs4 {
+
+	public static void main(String[] args) {
+		childClass child1 = new childClass();
+		child1.display();
+		System.out.println();
+		child1.show();
+
+	}
+
+}
